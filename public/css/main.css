@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{ background:#9b3f93;}
+
+.nav-link , .navbar-brand{ 
+    color: #f4f4f4; cursor: pointer;
+}
+
+.nav-link{
+     margin-right: 1em !important;
+    }
+
+.nav-link:hover{
+     background: #f4f4f4; color: #91278F; 
+    }
+
+.navbar-collapse{
+     justify-content: flex-end;
+    }
+
+.navbar-toggler{  background:#fff !important;}
+
+/* .dropbtn{
+    background-color:#6A1C68;
+    color: white;
+    padding: 15px;
+    border: none;
+    justify-content: end;
+} */
+/* .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:#6A1C68;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+  .dropdown:hover .dropbtn {
+      background-color:#6A1C68;
+    }   */
+#main-nav{
+    background: white;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#main-nav .container{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburger-div{
+    display: none;
+}
+
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+#main-nav .container ul{
+    list-style: none;
+    display: flex;
+}
+#main-nav .container ul li{
+    font-family: sans-serif;
+    margin: 0 10px;
+}
+#main-nav .container ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+.navigation-link{
+    color: #6A1C68;
+}
+#newsfeed{
+    height: 100%;
+    padding-top: 85px;
+}
+#newsfeed .container{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 2fr;
+}
+
+
+.newsfeed{
+    background: rgb(233, 233, 233);
+    border: 2px solid #f8f8f8;
+}
+.newsfeed1{
+    padding: 10px 10px;
+}
+.newsfeed-title{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.newsfeed-div{
+    padding: 15px 0;
+    /* border: 2px solid #6A1C68; */
+}
+.newsfeed-content{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.newsfeed-content a{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.newsfeed2 img{
+    /* padding-left: 30px; */
+    width: 100%;
+    min-width: 500px;
+}
+.newsfeed2-title{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+/* .newsfeed2-Paragraph a{
+    margin-left: 10px;
+} */
+.newsfeed3 {
+    padding: 0 15px;
+}
+.stories-title{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.stories-content{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.stories-img-div{
+    width: 200px;
+    
+    margin-right: 15px;
+}
+.stories-img-div img{
+    width: 100%;
+    height: 95px;
+}
+
+@media screen and (max-width: 768px){
+    #newsfeed .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #main-nav .container ul{
+        display: none;
+        
+    }
+    #main-nav .container{
+        padding: 0 20px;
+    }
+    .hamburger-div{
+        display: block;
+    }
+}
+.secondSection{
+    margin-top: 50px;
+}
+
+.MeetUs{
+    background-color:#6A1C68;
+    color: aliceblue;
+    height: 418px;
+    padding-top: 100px;
+    padding-left: 40px;
+    position: relative;
+}
+.MeetUs p{
+ font-family: sans-serif, arial;
+ font-size: 25px;
+
+}
+.MeetUs input{
+ border: none;
+ background-color: transparent;
+ border-bottom: 2px solid white;
+ padding-bottom: 10px;
+ width: 80%;
+ color: rgb(233, 233, 233);
+}
+.MeetUs input::placeholder {
+ color: white;
+}
+.MeetUs input:focus {
+ outline: none;
+ border-color: yellow;
+}
+.card-body{
+    height: 200px;
+}
+.card-footer{
+    height: 50px;
+    background-color: #6A1C68;
+}
+
+.ThirdSection{
+    margin-top: 25px;
+}
